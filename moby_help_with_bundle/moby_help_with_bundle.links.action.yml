@@ -1,0 +1,5 @@
+entity.moby_help_with_bundle_entity.add_form:
+  route_name: entity.moby_help_with_bundle_entity.add_page
+  title: 'Add Moby help with bundle entity'
+  appears_on:
+    - entity.moby_help_with_bundle_entity.collection

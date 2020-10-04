@@ -1,0 +1,31 @@
+add moby help entity entities:
+  title: 'Create new Moby help entity entities'
+
+administer moby help entity entities:
+  title: 'Administer Moby help entity entities'
+  description: 'Allow to access the administration form to configure Moby help entity entities.'
+  restrict access: true
+
+delete moby help entity entities:
+  title: 'Delete Moby help entity entities'
+
+edit moby help entity entities:
+  title: 'Edit Moby help entity entities'
+
+view published moby help entity entities:
+  title: 'View published Moby help entity entities'
+
+view unpublished moby help entity entities:
+  title: 'View unpublished Moby help entity entities'
+
+view all moby help entity revisions:
+  title: 'View all Moby help entity revisions'
+
+revert all moby help entity revisions:
+  title: 'Revert all Moby help entity revisions'
+  description: 'Role requires permission <em>view Moby help entity revisions</em> and <em>edit rights</em> for moby help entity entities in question or <em>administer moby help entity entities</em>.'
+
+delete all moby help entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Moby help entity revisions</em> and <em>delete rights</em> for moby help entity entities in question or <em>administer moby help entity entities</em>.'
+

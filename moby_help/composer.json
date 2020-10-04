@@ -1,0 +1,13 @@
+{
+    "name": "moby_help",
+    "type": "drupal-module",
+    "description": "Add different category of moby help data.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/moby_help",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/moby_help",
+        "source": "http://cgit.drupalcode.org/moby_help",
+    },
+}

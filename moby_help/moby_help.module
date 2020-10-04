@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains moby_help.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function moby_help_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the moby_help module.
+    case 'help.page.moby_help':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Add different category of moby help data.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function moby_help_theme() {
+  return [
+    'moby_help' => [
+      'render element' => 'children',
+    ],
+  ];
+}

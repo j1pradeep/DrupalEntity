@@ -1,0 +1,33 @@
+add moby help with bundle entity entities:
+  title: 'Create new Moby help with bundle entity entities'
+
+administer moby help with bundle entity entities:
+  title: 'Administer Moby help with bundle entity entities'
+  description: 'Allow to access the administration form to configure Moby help with bundle entity entities.'
+  restrict access: true
+
+delete moby help with bundle entity entities:
+  title: 'Delete Moby help with bundle entity entities'
+
+edit moby help with bundle entity entities:
+  title: 'Edit Moby help with bundle entity entities'
+
+view published moby help with bundle entity entities:
+  title: 'View published Moby help with bundle entity entities'
+
+view unpublished moby help with bundle entity entities:
+  title: 'View unpublished Moby help with bundle entity entities'
+
+view all moby help with bundle entity revisions:
+  title: 'View all Moby help with bundle entity revisions'
+
+revert all moby help with bundle entity revisions:
+  title: 'Revert all Moby help with bundle entity revisions'
+  description: 'Role requires permission <em>view Moby help with bundle entity revisions</em> and <em>edit rights</em> for moby help with bundle entity entities in question or <em>administer moby help with bundle entity entities</em>.'
+
+delete all moby help with bundle entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Moby help with bundle entity revisions</em> and <em>delete rights</em> for moby help with bundle entity entities in question or <em>administer moby help with bundle entity entities</em>.'
+
+permission_callbacks:
+  - \Drupal\moby_help_with_bundle\MobyHelpWithBundleEntityPermissions::generatePermissions

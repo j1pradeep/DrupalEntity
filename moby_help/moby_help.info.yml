@@ -1,0 +1,5 @@
+name: 'Moby Help'
+type: module
+description: 'Add different category of moby help data.'
+core: 8.x
+package: 'Custom'

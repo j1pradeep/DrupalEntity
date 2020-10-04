@@ -1,0 +1,5 @@
+entity.moby_help_entity.add_form:
+  route_name: entity.moby_help_entity.add_form
+  title: 'Add Moby help entity'
+  appears_on:
+    - entity.moby_help_entity.collection

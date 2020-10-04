@@ -1,0 +1,14 @@
+
+# Moby help entity menu items definition
+entity.moby_help_entity.collection:
+  title: 'Moby help entity list'
+  route_name: entity.moby_help_entity.collection
+  description: 'List Moby help entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+moby_help_entity.admin.structure.settings:
+  title: 'Moby help entity settings'
+  description: 'Configure Moby help entity entities'
+  route_name: moby_help_entity.settings
+  parent: system.admin_structure
