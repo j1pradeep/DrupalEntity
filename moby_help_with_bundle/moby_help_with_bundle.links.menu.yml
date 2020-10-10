@@ -1,9 +1,0 @@
-
-# Moby help with bundle entity menu items definition
-entity.moby_help_with_bundle_entity.collection:
-  title: 'Moby help with bundle entity list'
-  route_name: entity.moby_help_with_bundle_entity.collection
-  description: 'List Moby help with bundle entity entities'
-  parent: system.admin_structure
-  weight: 100
-
